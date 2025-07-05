@@ -25,7 +25,7 @@
 <h3>Desafios</h3>
 
 
-- [Dia 1](https://github.com)
+- [Dia 1](https://github.com/devluangabriel/7-days-of-code/tree/main/Hiring%20Page)
 
 <h3>Clonagem</h3>
 
