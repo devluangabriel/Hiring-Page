@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --componentes-vermelhos: #8E2424;
+    --text-azul: #101828;
+    --text-cinza: #667085;
+    --text-branco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--text-branco);
+}
+
+.container__header {
+    display: flex;
+    width: 100%;
+    padding: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;;
+}
+
+.container__header--content {
+    display: flex;
+    width: 100%;
+    padding: 8.5px 32px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ancora-p {
+    text-decoration: none;
+    color: var(--text-cinza);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container__header--links {
+    display: flex;
+    gap: 32px;
+}
+
+.container__header--buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ancora-c {
+    text-decoration: none;
+    color: var(--text-branco);
+    background-color: var(--componentes-vermelhos);
+    border-radius: 8px;
+    width: 112px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 18px;
+}
+
+.ent-p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    width: 83px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner-apreseentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    gap: 24px;
+    padding: 96px 0px;
+}
+
+.conteiner-apreseentacao__so {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--componentes-vermelhos);
+}
+
+.conteiner-apreseentacao_titulo {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--text-azul);
+}
+
+.conteiner-apreseentacao_paragrafo {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-cinza);
+    text-align: center;
+    width: 791px;
+}
+
+.conteiner-apreseentacao__metricas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 64px;
+    padding-bottom: 96px;
+}
+
+.conteiner-apreseentacao__metricas--item {
+    width: 280px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.conteiner-apreseentacao__metricas--container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.metricas-h1 {
+    font-weight: 600;
+    color: var(--componentes-vermelhos);
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+}
+
+.metricas-projetos {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-azul);
+}
+
+.metricas-desc {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-cinza);
+}
+
+.a-b {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.conteiner-vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 64px;
+}	
+
+.conteiner-vagas__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.conteiner-vagas__so {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--componentes-vermelhos);
+}
+
+.conteiner-vagas_titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--text-azul);
+}
+
+.conteiner-vagas_paragrafo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-cinza);
+    text-align: center;
+}
+
+.conteiner-vagas__titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteiner-empresa-principal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__empresas {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    gap: 32px;
+}
+
+.conteiner-titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: start;
+}
+
+.container__empresas--item {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px 24px;
+    align-items: start;
+    gap: 24px;
+}
+
+.container__empresas--item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.items-principais {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-azul);
+}
+
+.items-descricao {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-cinza);
+}
+
+.items-principais__container {
+    display: flex;
+    gap: 24px;
+}
+
+.conteiner-principal-----ppp {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0px 0px 96px 0px;
+}
+
+.feedbeeks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 96px;
+    gap: 32px;
+}
+
+.feedbeeks__titulo {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 1088px;
+    height: 124px;
+}
+
+.titulos__feed {
+    color: var(--componentes-vermelhos);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.titulus_titulos {
+    color: var(--text-azul);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px; 
+    height: 88px;
+    letter-spacing: -0.72px;
+}
+
+.feedbeeks__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.feedbeeks__container-ppp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.feedbeeks__container-pp {
+    color: var(--text-azul);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.feedbeek-pp {
+    color: var(--text-cinza);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contact {
+    display: flex;
+    gap: 32px;
+    padding: 96px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px;
+    gap: 32px;
+}
+
+.contact__container--titulo {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-container-h1 {
+    font-weight: 600;
+    color: var(--text-azul);
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.contact-conteinerp {
+    font-weight: 400;
+    color: var(--text-cinza);
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact__container--form {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email__cl {
+    width: 360px;
+    height: 48px;
+    background-color: var(--text-branco);
+    border: 1px solid #D0D5DD;
+    text-align: start;
+    padding: 12px 14px 12px 16px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.btn__contact {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--componentes-vermelhos);
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #8E2424;
+    color: var(--text-branco);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.p-info-ffo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-cinza);
+    text-align: center;
+}
+
+.btn__contact:hover {
+    cursor: pointer;
+}
