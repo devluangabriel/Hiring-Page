@@ -27,12 +27,6 @@
 
 - [Dia 1](https://github.com/devluangabriel/7-days-of-code/tree/main/Hiring%20Page)
 
-<h3>Clonagem</h3>
 
-Como clonar o projeto
-
-```bash
-git cole a url do projeto do github
-```
 
 
