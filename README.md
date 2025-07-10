@@ -22,11 +22,17 @@
 - Flex-Box
 - Media Queries
 
-<h3>Desafios</h3>
+<h3>Desafio</h3>
 
 
-- [Dia 1](https://github.com/devluangabriel/7-days-of-code/tree/main/Hiring%20Page)
+- [Pagina de contatratação](https://github.com/devluangabriel/Hiring-Page/blob/main/Layout.gif)
 
+<h2 id="layout">🎨 Layout</h2>
+
+<p align="center">
+    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="../.github/example.png" alt="Image Example" width="400px">
+</p>
 
 
 
