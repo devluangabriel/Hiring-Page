@@ -22,10 +22,7 @@
 - Flex-Box
 - Media Queries
 
-<h3>Desafio</h3>
 
-
-- [Pagina de contatratação](https://github.com/devluangabriel/Hiring-Page/tree/main/Hiring%20Page)
 
 <h2 id="layout">🎨 Layout</h2>
 
